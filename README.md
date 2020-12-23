@@ -6,6 +6,7 @@ De acordo com os modelos oficiais na página da [NPGFC para Provas Académicas](
 O Resumo Alargado em português é necessário se a Tese for escrita em inglês ou outra língua oficial da EU.
 
 **Ficheiros Template:**
+* Latex
 * Word 1997-2004 : .dot
 * Word 2004- : .dotx
 * Pages : .template
