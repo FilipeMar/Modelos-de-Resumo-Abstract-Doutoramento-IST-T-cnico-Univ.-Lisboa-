@@ -1,0 +1,48 @@
+\documentclass[10pt,a4paper]{report}
+\pagenumbering{gobble}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+
+% Use Arial font as default
+%
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+
+% ----------------------------------------------------------------------
+% Define page margins and line spacing.
+% ----------------------------------------------------------------------
+
+% 'geometry' package
+%
+% Flexible and complete interface to document dimensions.
+% http://www.ctan.org/tex-archive/macros/latex/contrib/geometry/
+%
+% > set the page margins (2.5cm minimum in every side, as per IST rules)
+%
+\usepackage{geometry}	
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+
+% 'setspace' package
+%
+% Set space between lines.
+% http://www.ctan.org/tex-archive/macros/latex/contrib/setspace/
+%
+% > allow setting line spacing (line spacing of 1.5, as per IST rules)
+%
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.5}
+
+\hyphenation{par-ti-cu-lar-men-te}
+
+\begin{document}
+	
+\textbf{Título} 
+
+\vspace{1.5cm}
+
+\underline{\textbf{Resumo alargado em Português}}
+
+\vspace{0.3cm}
+
+
+\end{document}
